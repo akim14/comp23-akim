@@ -20,6 +20,6 @@ Program name: word_count.py
 Function: Receives an input file, counts the number of times each word appears, prints out the word and how often it appears in the file, and finally, prints the  total number of words in the file
 An input file must be read; if no file is provided to the program, then it will exit.
 The input file is first read and each line of text is parsed. Punctuation is not counted as part of a word (ex. "wolf" and "wolf!" are both "wolf"). All words are translated into lower-case (ex. so "the" and "The" are both "the"). A dictionary is kept to store the words and their frequency.
-The final output is printed ALPHABETICALLY in this manner: word first, then the word's frequency (ex. "sheep 5"). After all words have been accounted for, a statement will be printed informing how many words were in the given file.
+The final output is printed ALPHABETICALLY in this manner: word first, then the word's frequency (ex. "sheep 5"). After all words have been accounted for, a statement will be printed informing how many words were in the given file (the grand total of words, not how many unique words).
 
 
