@@ -53,6 +53,8 @@ class Battlecruiser(pygame.sprite.Sprite):
 	#Make active	
         self.active = True 
 
+
+
     #Draw
     def draw(self):
 	''' Draw out the sprite and lasers '''
@@ -88,6 +90,7 @@ class Battlecruiser(pygame.sprite.Sprite):
 	self.rect.move(self.x, self.y)
 	self.rect.topleft = (self.x, self.y)
 	self.rect.bottomright = (self.x + self.image_w, self.y + self.image_h)	
+
 
 
     #Firin' ma lazer 
