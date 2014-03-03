@@ -10,9 +10,20 @@ from Laser import Laser
 class Battlecruiser(pygame.sprite.Sprite):
     ''' Battlecruiser sprite '''
 
-    #This is the correct image to load
     image_asset= "assets/battlecruiser.gif"
+    laser_sound = "assets/laser.wav"
+    death_sound = "assets/death_explode.wav"
+
+    def load_sound(self, sound_name):
+	try:
+            sound = pygame.mixer.Sound(sound_name)
+        except pygame.error, message:
+            print "Cannot load sound: " + sound_name
+            raise SystemExit, message
+        return sound
+
 	
+
     def load_image(self, image_name):
         try:
 	    image = pygame.image.load(image_name)
@@ -58,7 +69,8 @@ class Battlecruiser(pygame.sprite.Sprite):
     #Draw
     def draw(self):
 	''' Draw out the sprite and lasers '''
-	self.screen.blit(self.image, (self.x, self.y))
+	if self.active:
+	    self.screen.blit(self.image, (self.x, self.y))
 	
 	for laser in self.lasers:
 	    if laser.active:
@@ -81,6 +93,7 @@ class Battlecruiser(pygame.sprite.Sprite):
 	    self.y += self.dy 
         elif action == "FIRE":
 	    self.firelaser()
+	    
 
 	#Update lasers' positions as well
 	for laser in self.lasers:
@@ -91,6 +104,9 @@ class Battlecruiser(pygame.sprite.Sprite):
 	self.rect.topleft = (self.x, self.y)
 	self.rect.bottomright = (self.x + self.image_w, self.y + self.image_h)	
 
+	if self.active == False:
+	   self.kill()
+
 
 
     #Firin' ma lazer 
@@ -98,6 +114,16 @@ class Battlecruiser(pygame.sprite.Sprite):
 	''' Add a laser to the list '''
 	self.lasers.append(Laser(self.screen, self.x + self.image_w/2, self.y - 10, 0, 10))                
         #laser's dx is 0 (doesn't change x position), laser's dy is 10
+        pewpew = self.load_sound(self.laser_sound)
+        pewpew.play()
+
+
+
+    def got_hit(self):
+	self.active = False
+	nooo = self.load_sound(self.death_sound)
+	nooo.play()
+
 
 
 
@@ -115,8 +141,8 @@ if __name__ == "__main__":
     BACKGROUND_COLOR = (0, 0, 0) #black background
 
     #Set the speed at which battlecruiser moves
-    x_speed = 4
-    y_speed = 4
+    x_speed = 3
+    y_speed = 3
 
     #Initialize game
     pygame.init()
