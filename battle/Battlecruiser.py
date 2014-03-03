@@ -15,6 +15,7 @@ class Battlecruiser(pygame.sprite.Sprite):
     death_sound = "assets/death_explode.wav"
 
     def load_sound(self, sound_name):
+        ''' Load sound '''
 	try:
             sound = pygame.mixer.Sound(sound_name)
         except pygame.error, message:
@@ -118,7 +119,7 @@ class Battlecruiser(pygame.sprite.Sprite):
         pewpew.play()
 
 
-
+    #When battlecruiser is hit by enemy
     def got_hit(self):
 	self.active = False
 	nooo = self.load_sound(self.death_sound)
