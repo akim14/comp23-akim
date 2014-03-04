@@ -62,13 +62,12 @@ class Laser(pygame.sprite.Sprite):
     def update(self):
 	''' Move the sprite and its collision box '''
 	self.y -= self.dy
-        self.rect.y += self.dy
+        self.rect.y -= self.dy
         self.rect.move(self.rect.x, self.rect.y)
   
         if self.y <= 0:  #If laser bolt moves off the screen, delete it
 	    self.active = False
 	    self.kill()
-
 
 
 

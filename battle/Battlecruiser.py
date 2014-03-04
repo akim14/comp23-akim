@@ -10,6 +10,7 @@ from Laser import Laser
 class Battlecruiser(pygame.sprite.Sprite):
     ''' Battlecruiser sprite '''
 
+    #The sounds
     image_asset= "assets/battlecruiser.gif"
     laser_sound = "assets/laser.wav"
     death_sound = "assets/death_explode.wav"
@@ -119,12 +120,13 @@ class Battlecruiser(pygame.sprite.Sprite):
         pewpew.play()
 
 
+
     #When battlecruiser is hit by enemy
     def got_hit(self):
+	''' Deactivate and play death explode sound '''
 	self.active = False
 	nooo = self.load_sound(self.death_sound)
 	nooo.play()
-
 
 
 
