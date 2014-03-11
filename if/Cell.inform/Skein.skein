@@ -1,0 +1,3591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x27679c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>GNOME Inform 7</generator>
+  <activeNode nodeId="node-0x27679c0"/>
+  <item nodeId="node-0x27679c0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Cell
+An Interactive Fiction by Aromie Kim
+Release 1 / Serial number 140311 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+You open your eyes and see nothing but darkness. You try to remember what happened, why you&apos;re here, but thinking alone makes your head throb.
+
+Dark Cell
+The air feels oddly heavy. The dark is unsettling.
+
+A door with a cracked sign saying &quot;BATHROOM&quot; is at your left.
+
+An open, gated door stands before you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2767860"/>
+      <child nodeId="node-0x31c4c70"/>
+      <child nodeId="node-0x32539b0"/>
+      <child nodeId="node-0x3253dd0"/>
+      <child nodeId="node-0x327d810"/>
+      <child nodeId="node-0x327dad0"/>
+      <child nodeId="node-0x29a4160"/>
+      <child nodeId="node-0x29a49a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2767860">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+You open the bathroom and almost reel back from the rancid stench.
+
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+You can see a bathroom door, a toilet and a medicine cabinet (in which are a card and a key) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2767700"/>
+      <child nodeId="node-0x7f5718011430"/>
+      <child nodeId="node-0x319e150"/>
+      <child nodeId="node-0x319e990"/>
+      <child nodeId="node-0x31c4590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2767700">
+    <command xml:space="preserve">examine toilet</command>
+    <result xml:space="preserve">The water is discolored and the porcelain is nastily yellow. Nothing exciting and nothing you&apos;d like to see.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2767c80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2767c80">
+    <command xml:space="preserve">examine medicine cabinet</command>
+    <result xml:space="preserve">There&apos;s a crack in the lower right corner. Within the crack, you can make out a card and a key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x27672e0"/>
+      <child nodeId="node-0x27675a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x27672e0">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2767440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2767440">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x27675a0">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57180112d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57180112d0">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f5718011430">
+    <command xml:space="preserve">examine medicine cabinet</command>
+    <result xml:space="preserve">The cabinet is ever so slightly ajar.
+
+In the medicine cabinet are a card and a key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f5718011590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f5718011590">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57180116f0"/>
+      <child nodeId="node-0x7f57180119b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57180116f0">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">A small, dirty, green card. It says the words &quot;ESCAPE NOW&quot; along with the number 11-5-19.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f5718011850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f5718011850">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The darkness of the room brings some comfort as you open your aching eyes. You struggle to remember what had happened, but your head aches just thinking. The air feels oddly heavy. You can&apos;t see much, but you can see a door to your left, and a gated cell door in front of you.
+
+You can see a bathroom door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f57180119b0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f5718011b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f5718011b10">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">You see nothing special about the key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f5718011c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f5718011c70">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. You can&apos;t see much, but you can see a door to your left, and a gated cell door in front of you.
+
+You can see a bathroom door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f5718011dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f5718011dd0">
+    <command xml:space="preserve">unlock gated cell door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f5718011f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f5718011f30">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x319e150">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">The cabinet is ever so slightly ajar.
+
+In the medicine cabinet are a card and a key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319e2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319e2b0">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319e410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319e410">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319e570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319e570">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. You can&apos;t see much, but you can see a door to your left, and a gated cell door in front of you.
+
+You can see a bathroom door and a gated cell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319e6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319e6d0">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">It&apos;s locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319e830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319e830">
+    <command xml:space="preserve">unlock gated cell door</command>
+    <result xml:space="preserve">It&apos;s locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x319e990">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319eaf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319eaf0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319ec50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319ec50">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. You can&apos;t see much, but you can see a door to your left, and a gated cell door in front of you.
+
+You can see a bathroom door and a gated cell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319edb0"/>
+      <child nodeId="node-0x31c4170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319edb0">
+    <command xml:space="preserve">unlock gated cell door</command>
+    <result xml:space="preserve">What do you want to unlock the gated cell door with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x319ef10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x319ef10">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">It&apos;s locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31c4170">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">It&apos;s locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c42d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c42d0">
+    <command xml:space="preserve">unlock gated cell door</command>
+    <result xml:space="preserve">What do you want to unlock the gated cell door with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c4430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c4430">
+    <command xml:space="preserve">unlocked gated cell door with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31c4590">
+    <command xml:space="preserve">take card </command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c46f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c46f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c4850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c4850">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. You can&apos;t see much, but you can see a door to your left, and a gated cell door in front of you.
+
+You can see a bathroom door and a gated cell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c49b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c49b0">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">It&apos;s locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c4b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c4b10">
+    <command xml:space="preserve">unlock gated cell door</command>
+    <result xml:space="preserve">What do you want to unlock the gated cell door with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31c4c70">
+    <command xml:space="preserve">open bathroom door</command>
+    <result xml:space="preserve">You open the bathroom door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c4dd0"/>
+      <child nodeId="node-0x31ee2d0"/>
+      <child nodeId="node-0x31ee6f0"/>
+      <child nodeId="node-0x31eef30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c4dd0">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31c4f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31c4f30">
+    <command xml:space="preserve">examine toilet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31ee170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31ee170">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+You can see a bathroom door, a toilet and a medicine cabinet (in which is a card) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31ee2d0">
+    <command xml:space="preserve">go in</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31ee430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31ee430">
+    <command xml:space="preserve">go to bathroom</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31ee590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31ee590">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+You can see a bathroom door, a toilet and a rat here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31ee6f0">
+    <command xml:space="preserve">enter bathroom door</command>
+    <result xml:space="preserve">
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+You can see a bathroom door, a toilet and a rat here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31ee850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31ee850">
+    <command xml:space="preserve">examine toilet</command>
+    <result xml:space="preserve">The water is discolored and the porcelain is nastily yellow. Nothing exciting and nothing you&apos;d like to see.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31ee9b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31ee9b0">
+    <command xml:space="preserve">examine rat</command>
+    <result xml:space="preserve">A large rat dozes near the toilet. Something is in its mouth. Maybe you can make it drop it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31eeb10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31eeb10">
+    <command xml:space="preserve">wake rat</command>
+    <result xml:space="preserve">The rat squeals and opens its mouth, dropping a card.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31eec70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31eec70">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31eedd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31eedd0">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31eef30">
+    <command xml:space="preserve">enter bathroom</command>
+    <result xml:space="preserve">
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+A door with a cracked sign saying &quot;BATHROOM&quot; is at your left.
+
+A nasty toilet sits in the corner.
+
+A rat dozes under the bowl.
+
+The rat appears to be holding something rectangular in its mouth.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207160"/>
+      <child nodeId="node-0x322c570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207160">
+    <command xml:space="preserve">examine rat</command>
+    <result xml:space="preserve">Something rectangular is in its mouth. Maybe you can get it to drop it somehow?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32072c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32072c0">
+    <command xml:space="preserve">wake rat</command>
+    <result xml:space="preserve">The rat squeals and opens its mouth, dropping a card.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207420">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207580">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">A small, dirty, green card. It says the words &quot;ESCAPE NOW&quot; along with the number 11-5-19.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32076e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32076e0">
+    <command xml:space="preserve">exit bathroom</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207840">
+    <command xml:space="preserve">leave bathroom</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32079a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32079a0">
+    <command xml:space="preserve">exit bathroom door</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207b00">
+    <command xml:space="preserve">go to Dark Cell</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207c60">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207dc0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3207f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3207f20">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. The dark is unsettling.
+
+A door with a cracked sign saying &quot;BATHROOM&quot; is at your left.
+
+You can also see a gated cell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322c150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322c150">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322c2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322c2b0">
+    <command xml:space="preserve">enter gated cell door</command>
+    <result xml:space="preserve">
+Hallway
+A dimly-lit hallway. A white door is before you.
+
+You can see a gated cell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322c410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322c410">
+    <command xml:space="preserve">open white door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x322c570">
+    <command xml:space="preserve">examine toilet</command>
+    <result xml:space="preserve">The water is discolored and the porcelain is nastily yellow. Nothing exciting and nothing you&apos;d like to see.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322c6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322c6d0">
+    <command xml:space="preserve">examine rat</command>
+    <result xml:space="preserve">Something rectangular is in its mouth. Maybe you can get it to drop it somehow?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322c830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322c830">
+    <command xml:space="preserve">wake rat</command>
+    <result xml:space="preserve">The rat squeals and opens its mouth, dropping a card.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322c990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322c990">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322caf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322caf0">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">A small, dirty, green card. It says the words &quot;ESCAPE NOW&quot; along with the number 11-5-19.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322cc50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322cc50">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322cdb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322cdb0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. The dark is unsettling.
+
+A door with a cracked sign saying &quot;BATHROOM&quot; is at your left.
+
+An open, gated door stands before you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x322cf10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x322cf10">
+    <command xml:space="preserve">enter gated door</command>
+    <result xml:space="preserve">
+Hallway
+A dimly-lit hallway. There is complete darkness to your left and right.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+An open, gated door stands before you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3253170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3253170">
+    <command xml:space="preserve">open white door</command>
+    <result xml:space="preserve">You open the white door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32532d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32532d0">
+    <command xml:space="preserve">enter </command>
+    <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3253430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3253430">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">Which do you mean, the white door or the gated cell door?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3253590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3253590">
+    <command xml:space="preserve">enter white door</command>
+    <result xml:space="preserve">Chamber
+A brightly lit room. A small camera hangs nearly thirteen feet above you. The floor is spotless.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+Suddenly, the room echoes with the sound of a tinny voice. &quot;Greetings. You managed to escape your cell. Can you wave your hand to tell me you can hear me?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32536f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32536f0">
+    <command xml:space="preserve">wave hand</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3253850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3253850">
+    <command xml:space="preserve">wave</command>
+    <result xml:space="preserve">You wave, feeling foolish.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x32539b0">
+    <command xml:space="preserve">open left door</command>
+    <result xml:space="preserve">You have entered the Bathroom.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3253b10"/>
+      <child nodeId="node-0x3253c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3253b10">
+    <command xml:space="preserve">open gated cell door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3253c70">
+    <command xml:space="preserve">examine Bathroom</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3253dd0">
+    <command xml:space="preserve">go front</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3253f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3253f30">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327d130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327d130">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+You open the bathroom and almost reel back from the rancid stench.
+
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+You can see a bathroom door, a toilet and a medicine cabinet (in which is a card) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327d290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327d290">
+    <command xml:space="preserve">examine medicine cabinet</command>
+    <result xml:space="preserve">The cabinet is ever so slightly ajar.
+
+In the medicine cabinet is a card.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327d3f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327d3f0">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327d550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327d550">
+    <command xml:space="preserve">examine card</command>
+    <result xml:space="preserve">A small, dirty, green card. It says the words &quot;ESCAPE NOW&quot; along with the number 11-5-19.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327d6b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327d6b0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Dark Cell
+The air feels oddly heavy. You can&apos;t see much, but you can see a door to your left, and a gated cell door in front of you.
+
+You can see a bathroom door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x327d810">
+    <command xml:space="preserve">go left </command>
+    <result xml:space="preserve">(first opening the bathroom door)
+You open the bathroom and almost reel back from the rancid stench.
+
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+There is a door to the left.
+
+You can also see a toilet and a medicine cabinet (in which is a card) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327d970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327d970">
+    <command xml:space="preserve">examine medicine cabinet</command>
+    <result xml:space="preserve">The cabinet is ever so slightly ajar.
+
+In the medicine cabinet is a card.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x327dad0">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">&gt;--&gt; No test scripts exist for this game.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327dc30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327dc30">
+    <command xml:space="preserve">open bathroom door</command>
+    <result xml:space="preserve">You open the bathroom door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327dd90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327dd90">
+    <command xml:space="preserve">enter bathroom</command>
+    <result xml:space="preserve">
+Bathroom
+A dirty bathroom with a putrid smell. You&apos;d rather not stay here for long.
+
+A nasty toilet sits in the corner.
+
+A rat dozes under the bowl.
+
+The rat appears to be holding something rectangular in its mouth.
+
+You can also see a bathroom door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x327def0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x327def0">
+    <command xml:space="preserve">examine rat</command>
+    <result xml:space="preserve">You see nothing special about the rat.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x29a4160">
+    <command xml:space="preserve">open gated door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a42c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a42c0">
+    <command xml:space="preserve">enter gated door</command>
+    <result xml:space="preserve">
+Hallway
+A dimly-lit hallway. There is complete darkness to your left and right.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+An open, gated door stands before you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a4420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a4420">
+    <command xml:space="preserve">enter white door</command>
+    <result xml:space="preserve">(first opening the white door)
+Chamber
+A brightly lit room. A small camera hangs nearly thirteen feet above you. The floor is spotless.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+You can also see a Voice here.
+
+Suddenly, the room echoes with the sound of a tinny voice. &quot;Greetings. You managed to escape your cell. Can you say &quot;Hello&quot; so I know that you can hear me?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a4580"/>
+      <child nodeId="node-0x29a46e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a4580">
+    <command xml:space="preserve">wave</command>
+    <result xml:space="preserve">You wave, feeling foolish.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x29a46e0">
+    <command xml:space="preserve">greet voice</command>
+    <result xml:space="preserve">&quot;Fantastic. I&apos;ll be watching you progress through this place. Now look to your left. I&apos;ve opened a room for you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a4840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a4840">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Equipment room
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x29a49a0">
+    <command xml:space="preserve">enter gated door</command>
+    <result xml:space="preserve">
+Hallway
+A dimly-lit hallway. There is complete darkness to your left and right.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+An open, gated door stands before you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a4b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a4b00">
+    <command xml:space="preserve">enter white door</command>
+    <result xml:space="preserve">(first opening the white door)
+Chamber
+A brightly lit room. A small camera hangs nearly thirteen feet above you. The floor is spotless.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+You can also see a Voice here.
+
+Suddenly, the room echoes with the sound of a tinny voice. &quot;Greetings. You managed to escape your cell. Can you say &quot;Hello&quot; so I know that you can hear me?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a4c60"/>
+      <child nodeId="node-0x29a4dc0"/>
+      <child nodeId="node-0x3330c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a4c60">
+    <command xml:space="preserve">greet Voice</command>
+    <result xml:space="preserve">&quot;Fantastic. I&apos;ll be watching you progress through this place. Now look to your left.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x29a4dc0">
+    <command xml:space="preserve">greet voice</command>
+    <result xml:space="preserve">&quot;Fantastic. I&apos;ll be watching you progress through this place. Now look to your left. I&apos;ve opened a room for you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x29a4f20"/>
+      <child nodeId="node-0x32c7c30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x29a4f20">
+    <command xml:space="preserve">enter gray door</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. You see some photos that resemble X-rays, but they appear to be burnt.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+You can also see a gray door, a X-ray and a desk here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7130"/>
+      <child nodeId="node-0x32c73f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7130">
+    <command xml:space="preserve">examine X-ray</command>
+    <result xml:space="preserve">The word &quot;Subject 46&quot; is written on the bottom left corner. Upon closer inspection, it looks as if the X-ray is one of the...skull?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7290">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">Messy beyond belief. Under a lamp, you see words etched onto the surface of the desk: &quot;IS THIS A GAME TO YOU?&quot;
+
+[Your score has just gone up by four points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x32c73f0">
+    <command xml:space="preserve">touch Sylvester</command>
+    <result xml:space="preserve">Sylvester seems relaxed and complacent. The collar is right under your hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7550">
+    <command xml:space="preserve">take collar</command>
+    <result xml:space="preserve">That seems to belong to Sylvester.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c76b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c76b0">
+    <command xml:space="preserve">examine collar</command>
+    <result xml:space="preserve">It has the letters &quot;--MORY LABS.&quot; Some letters are blurred out.
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7810">
+    <command xml:space="preserve">take X-ray</command>
+    <result xml:space="preserve">The Voice returns: &quot;Enjoying the photos? They&apos;re quite nice.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7970">
+    <command xml:space="preserve">examine X-ray</command>
+    <result xml:space="preserve">The word &quot;Subject 46&quot; is written on the bottom left corner. Upon closer inspection, it looks as if the X-ray is one of the...skull?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7ad0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7ad0">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">Messy beyond belief. Under a lamp, you see words etched onto the surface of the desk: &quot;IS THIS A GAME TO YOU?&quot;
+
+[Your score has just gone up by four points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x32c7c30">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+You see some photos that resemble X-rays, but they appear to be burnt.
+
+A deplorable desk is here.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32c7d90"/>
+      <child nodeId="node-0x32c7ef0"/>
+      <child nodeId="node-0x32ed290"/>
+      <child nodeId="node-0x3314150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32c7d90">
+    <command xml:space="preserve">examine paper</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x32c7ef0">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32ed130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32ed130">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x32ed290">
+    <command xml:space="preserve">go right</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32ed3f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32ed3f0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Chamber
+A brightly lit room. A small camera hangs nearly thirteen feet above you. The floor is spotless.
+
+A white door stands in front of you. A sign on it says &quot;Enter.&quot;
+
+You can also see a Voice here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32ed550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32ed550">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+You see some photos that resemble X-rays, but they appear to be burnt.
+
+A deplorable desk is here.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32ed6b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32ed6b0">
+    <command xml:space="preserve">touch Sylvester</command>
+    <result xml:space="preserve">Sylvester seems relaxed and complacent. The collar is right under your hand. Maybe you can take a closer look at it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32ed810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32ed810">
+    <command xml:space="preserve">examine collar</command>
+    <result xml:space="preserve">It has the letters &quot;--MORY LABS.&quot; Some letters are blurred out.
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32ed970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32ed970">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">Messy beyond belief. Under a lamp, you see words etched onto the surface of the desk: &quot;IS THIS A GAME TO YOU?&quot;
+
+[Your score has just gone up by four points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32edad0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32edad0">
+    <command xml:space="preserve">examine X-ray</command>
+    <result xml:space="preserve">The word &quot;Subject 46&quot; is written on the bottom left corner. Upon closer inspection, it looks as if the X-ray is one of a...skull?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32edc30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32edc30">
+    <command xml:space="preserve">take X-ray</command>
+    <result xml:space="preserve">The Voice returns: &quot;Enjoying the photos? They&apos;re quite nice.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32edd90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32edd90">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air.
+
+There is a photo within reach.
+
+Sylvester scampers into the room and looks at you meaningfully. &quot;He seems to take a liking to you,&quot; the Voice remarks.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x32edef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x32edef0">
+    <command xml:space="preserve">examine photo </command>
+    <result xml:space="preserve">This photo shows two people sitting at a table in a simple room. One person wears a white coat, his back to the camera. The other, a middle-aged woman, stares at him with an unnaturally blank look. On the bottom of the photo is a message: &quot;Subject 46: Exhibiting failure to comprehend.&quot;
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3314150">
+    <command xml:space="preserve">touch Sylvester</command>
+    <result xml:space="preserve">Sylvester seems relaxed and complacent. The collar is right under your hand. Maybe you can take a closer look at it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33142b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33142b0">
+    <command xml:space="preserve">examine collar</command>
+    <result xml:space="preserve">It has the letters &quot;--MORY LABS.&quot; Some letters are blurred out.
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314410">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">Messy beyond belief. Under a lamp, you see words etched onto the surface of the desk: &quot;IS THIS A GAME TO YOU?&quot;
+
+[Your score has just gone up by four points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314570">
+    <command xml:space="preserve">examine X-ray</command>
+    <result xml:space="preserve">The word &quot;Subject 46&quot; is written on the bottom left corner. Upon closer inspection, it looks as if the X-ray is one of a...skull?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33146d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33146d0">
+    <command xml:space="preserve">take X-ray</command>
+    <result xml:space="preserve">The Voice returns: &quot;Enjoying the photos? They&apos;re quite nice.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314830">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air. To the right you can see an entrance to a brightly lit room.
+
+There is a photo within reach.
+
+Sylvester scampers into the room and looks at you meaningfully. &quot;He seems to take a liking to you,&quot; the Voice remarks.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314990">
+    <command xml:space="preserve">take photo</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314af0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314af0">
+    <command xml:space="preserve">examine photo</command>
+    <result xml:space="preserve">This photo shows two people sitting at a table in a simple room. One person wears a white coat, his back to the camera. The other, a middle-aged woman, stares at him with an unnaturally blank look. On the bottom of the photo is a message: &quot;Subject 46: Exhibiting failure to comprehend.&quot;
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314c50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314c50">
+    <command xml:space="preserve">go right</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314db0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314db0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+A deplorable desk is here.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3314f10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3314f10">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air. To the right you can see an entrance to a brightly lit room.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330140">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+A deplorable desk is here.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33302a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33302a0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air. To the right you can see an entrance to a brightly lit room.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330400">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330560">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33306c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33306c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lab
+The room is huge and brightly lit. To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot;
+
+A series of cages line the walls, all open.
+
+There is a small, hand-crafted, wooden maze on a table.
+
+You can also see a heavy door and a cabinet (in which is a key) here.
+
+Sylvester hisses and begins to pace actively around the room
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330820">
+    <command xml:space="preserve">examine heavy door</command>
+    <result xml:space="preserve">It&apos;s locked shut and is quite heavy. &quot;Brilliant scientists, but dumb as an acorn. They say most fools don&apos;t keep a key more than 20 feet away from where the door is,&quot; the Voice speaks, somewhat dryly.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330980">
+    <command xml:space="preserve">examine cage</command>
+    <result xml:space="preserve">Looking into some cages, you see tufts of different fur inside. Were they from different animals?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330ae0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330ae0">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">In the cabinet is a key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3330c40">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+You see some photos that resemble X-rays, but they appear to be burnt.
+
+A deplorable desk is here.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330da0"/>
+      <child nodeId="node-0x33c5990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330da0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air. To the north you can see an entrance to a brightly lit room.
+
+There is a photo within reach.
+
+Sylvester scampers into the room and looks at you meaningfully. &quot;He seems to take a liking to you,&quot; the Voice remarks.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3330f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3330f00">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lab
+The room is huge and brightly lit.
+
+To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot; You can hear something behind it: is that breathing?
+
+A series of cages line the walls, all open.
+
+There is a small, hand-crafted, wooden maze on a table.
+
+A black cabinet stands near the table.
+
+A cockroach sits placidly on the cabinet surface.
+
+Sylvester hisses and begins to pace actively around the room
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355140"/>
+      <child nodeId="node-0x3355400"/>
+      <child nodeId="node-0x3355da0"/>
+      <child nodeId="node-0x33ab2b0"/>
+      <child nodeId="node-0x33c52b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355140">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">You see nothing special about the cabinet.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33552a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33552a0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You found the key!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3355400">
+    <command xml:space="preserve">examine heavy door</command>
+    <result xml:space="preserve">It&apos;s locked shut and is quite heavy. &quot;Brilliant scientists, but dumb as an acorn. They say most fools don&apos;t keep a key more than 20 feet away from where the door is,&quot; the Voice speaks, somewhat dryly.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355560">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">You see nothing special about the cabinet.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33556c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33556c0">
+    <command xml:space="preserve">open cabinte</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355820">
+    <command xml:space="preserve">open cabinet </command>
+    <result xml:space="preserve">You found the key! &quot;Well done,&quot; the Voice praises.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355980">
+    <command xml:space="preserve">unlock heavy door</command>
+    <result xml:space="preserve">What do you want to unlock the heavy door with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355ae0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355ae0">
+    <command xml:space="preserve">unlock heavy door with key</command>
+    <result xml:space="preserve">(first taking the key)
+You unlocked it!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355c40">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3355da0">
+    <command xml:space="preserve">examine cockroach</command>
+    <result xml:space="preserve">Ew. You&apos;d rather not touch the cabinet with that thing running around. &quot;Didn&apos;t think THAT would stop you,&quot; the Voice remarks.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3355f00"/>
+      <child nodeId="node-0x337b9a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3355f00">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">You see nothing special about the cabinet.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337b160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337b160">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You found the key! &quot;Well done,&quot; the Voice praises. &quot;Take the key and you should be able to go on your way.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337b2c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337b2c0">
+    <command xml:space="preserve">kill cockroach</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337b420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337b420">
+    <command xml:space="preserve">squash cockroach</command>
+    <result xml:space="preserve">You smash the cockroach with your foot. The cabinet is safe for observation!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337b580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337b580">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337b6e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337b6e0">
+    <command xml:space="preserve">unlock heavy door with key</command>
+    <result xml:space="preserve">You unlocked the door!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337b840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337b840">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x337b9a0">
+    <command xml:space="preserve">squash cockroach</command>
+    <result xml:space="preserve">You smash the cockroach with your foot. The cabinet is safe for observation!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337bb00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337bb00">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">You see nothing special about the cabinet.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337bc60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337bc60">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You found the key! &quot;Well done,&quot; the Voice praises. &quot;Take the key and you should be able to go on your way.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337bdc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337bdc0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x337bf20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x337bf20">
+    <command xml:space="preserve">unlock heavy door</command>
+    <result xml:space="preserve">You unlock the heavy door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ab150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ab150">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+
+Experimental Room
+An intimidatingly large chair sits in the center of the room. The walls are adorned with pictures of words and drawings of random objects, from houses to animals.
+
+To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot; You can hear something behind it: is that breathing?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x33ab2b0">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">
+Equipment Area
+The room is entirely trashed. Papers are scattered all over the floor. West is another room, lit in red.
+
+You see some photos that resemble X-rays, but they appear to be burnt.
+
+A deplorable desk is here.
+
+A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. The Voice speaks: &quot;That&apos;s Sylvester. He&apos;s quite a friendly cat. He enjoys a nice touch on the head.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ab410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ab410">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air. To the north you can see an entrance to a brightly lit room.
+
+There is a photo within reach.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ab570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ab570">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lab
+The room is huge and brightly lit.
+
+To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot; You can hear something behind it: is that breathing?
+
+A series of cages line the walls, all open.
+
+There is a small, hand-crafted, wooden maze on a table.
+
+A black cabinet stands near the table.
+
+A cockroach sits placidly on the cabinet surface.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ab6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ab6d0">
+    <command xml:space="preserve">take key </command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ab830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ab830">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You found the key! &quot;Well done,&quot; the Voice praises. &quot;Take the key and you should be able to go on your way.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ab990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ab990">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33abaf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33abaf0">
+    <command xml:space="preserve">unlock heavy door </command>
+    <result xml:space="preserve">You unlock the heavy door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33abc50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33abc50">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+
+Experimental Room
+An intimidatingly large chair sits in the center of the room. The walls are adorned with pictures of words and drawings of random objects, from houses to animals.
+
+To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot; You can hear something behind it: is that breathing?
+
+You realize the quiet breathing is from a man sitting in the chair. He does not look at you and wears a blank expression.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33abdb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33abdb0">
+    <command xml:space="preserve">examine man</command>
+    <result xml:space="preserve">A document and photograph are crumpled in the Stranger&apos;s hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33abf10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33abf10">
+    <command xml:space="preserve">examine document</command>
+    <result xml:space="preserve">It&apos;s an official document: &quot;SUBJECT NAME: 14 (John Akins) Age: 43 Length of Stay: 10 months
+ Subject 14 arrived at the facility as a healthy middle-aged male with average memory skills. He performed well in the maze tasks and made few errors in recollection games. After being subjected to the treatment, Subject 14 exhibited gradual memory deterioration, as expected, but at a slower rate than the animals. He made errors in the mazes that he had been trained to do for months. By month 4, his short-term memory worsened to a time capacity of roughly 13 seconds. He struggled in recognizing the faces of his experimenters. By month 7, he failed to recognize a photo of himself, as well as his family members. By month 9, he fiercely demanded to be let out of the facility. We tacitly refused. There is a reason why the experiment went awry, and he is a valuable subject in our attempts to fix the issue. For the moment, we will ask him to continue his participation in the memory tasks.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5150">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">A crumpled photo of the man (looking considerably younger), a woman, and a child at what seems to be a beach. They are all smiling.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x33c52b0">
+    <command xml:space="preserve">enter heavy door </command>
+    <result xml:space="preserve">(first opening the heavy door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5410">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You found the key! &quot;Well done,&quot; the Voice praises. &quot;Take the key and you should be able to go on your way.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5570">
+    <command xml:space="preserve">take key </command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c56d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c56d0">
+    <command xml:space="preserve">unlock heavy door with key</command>
+    <result xml:space="preserve">
+*** Run-time problem P46: The memory stack is exhausted.
+
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+
+[** Programming error: tried to write to --&gt;160 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+
+[** Programming error: tried to write to --&gt;161 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+
+[** Programming error: tried to write to --&gt;160 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+
+[** Programming error: tried to write to --&gt;161 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+
+[** Programming error: tried to write to --&gt;160 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+
+[** Programming error: tried to write to --&gt;161 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+
+[** Programming error: tried to write to --&gt;160 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+
+[** Programming error: tried to write to --&gt;161 in the array &quot;MStack&quot;, which has entries 0 up to 159 **]
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+Mstack backtrace: size 155 words
+Block at 148 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 145 owner ID 10 size 1
+41 
+Block at 137 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 134 owner ID 10 size 1
+41 
+Block at 126 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 123 owner ID 10 size 1
+41 
+Block at 115 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 112 owner ID 10 size 1
+41 
+Block at 104 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 101 owner ID 10 size 1
+41 
+Block at 93 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 90 owner ID 10 size 1
+41 
+Block at 82 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 79 owner ID 10 size 1
+41 
+Block at 71 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 68 owner ID 10 size 1
+41 
+Block at 60 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 57 owner ID 10 size 1
+41 
+Block at 49 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 46 owner ID 10 size 1
+41 
+Block at 38 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 35 owner ID 10 size 1
+41 
+Block at 27 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 24 owner ID 10 size 1
+41 
+Block at 16 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 13 owner ID 10 size 1
+41 
+Block at 5 owner ID 12 size 6
+1 0 176 177 178 1 
+Block at 2 owner ID 10 size 1
+41 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5830">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x33c5990">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5af0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5af0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Red Area
+Dozens of photos of men and women alike hang on a wire in the air. To the north you can see an entrance to a brightly lit room.
+
+There is a photo within reach.
+
+Sylvester scampers into the room and looks at you meaningfully. &quot;He seems to take a liking to you,&quot; the Voice remarks.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5c50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5c50">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lab
+The room is huge and brightly lit.
+
+To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot; You can hear something behind it: is that breathing?
+
+A series of cages line the walls, all open.
+
+There is a small, hand-crafted, wooden maze on a table.
+
+A black cabinet stands near the table.
+
+A cockroach sits placidly on the cabinet surface.
+
+Sylvester hisses and begins to pace actively around the room
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5db0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5db0">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33c5f10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33c5f10">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You found the key! &quot;Well done,&quot; the Voice praises. &quot;Take the key and you should be able to go on your way.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee150">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee2b0">
+    <command xml:space="preserve">unlock heavy door</command>
+    <result xml:space="preserve">You unlock the heavy door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee410">
+    <command xml:space="preserve">enter heavy door</command>
+    <result xml:space="preserve">(first opening the heavy door)
+
+Experimental Room
+An intimidatingly large chair sits in the center of the room. The walls are adorned with pictures of words and drawings of random objects, from houses to animals.
+
+To the left is a heavy, locked door that says &quot;DO NOT ENTER.&quot; You can hear something behind it: is that breathing?
+
+You realize the quiet breathing is from a man sitting in the chair. He does not look at you and wears a blank expression.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee570">
+    <command xml:space="preserve">examine drawing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee6d0">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee830">
+    <command xml:space="preserve">examine man</command>
+    <result xml:space="preserve">A document and photograph are crumpled in the man&apos;s hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33ee990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33ee990">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">A crumpled photo of the man (looking considerably younger), a woman, and a child at what seems to be a beach. They are all smiling. 
+ &quot;Beautiful family,&quot; the Voice says quietly. &quot;It&apos;s upsetting he forgot them all.&quot;
+
+[Your score has just gone up by three points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
