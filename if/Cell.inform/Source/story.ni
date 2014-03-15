@@ -2,7 +2,7 @@
 
 After printing the banner text when not requesting the story file version : say "[line break]You open your eyes and see nothing but darkness. You try to remember what happened, why you're here, but thinking alone makes your head throb. Your body shivers as you feel the sudden urge to explore."
 
-The maximum score is 56.
+The maximum score is 58.
 
 The initial appearance of a door is usually "[An item described] leads [if the other side of the item described is visited] to [the other side][otherwise][direction of the item described from the location][end if]." 
 
@@ -10,6 +10,13 @@ The initial appearance of a door is usually "[An item described] leads [if the o
 [The Dark Cell]
 The Dark Cell is a room. "The air feels oddly heavy. The dark is unsettling. A bed is at the corner. A small window sheds some light."
 Understand "left" as west. Understand "front" as north. Understand "right" as east.
+
+The table is in the Dark Cell. The initial appearance of the table is "A small table sits beside the bed."
+
+The candy bar is edible. The candy bar is on the table. 
+Instead of eating the candy bar:
+	say "You aren't particularly hungry, but you unwrap the candy bar and eat it. The chocolate is just the right amount of sweet. You gain some much needed, post-sleep energy.";
+	increase the score by 2.
 
 The yellow door is a door. The yellow door is west of the Dark Cell and east of the Bathroom. 
 
