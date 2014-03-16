@@ -4,7 +4,7 @@ After printing the banner text when not requesting the story file version : say 
 
 The maximum score is 64.
 
-The initial appearance of a door is usually "[An item described] leads [if the other side of the item described is visited] to [the other side][otherwise][direction of the item described from the location][end if]."
+The initial appearance of a door is usually "[An item described] leads [if the other side of the item described is visited]to [the other side][otherwise][direction of the item described from the location][end if]."
 
 
 [The Dark Cell]
@@ -13,7 +13,7 @@ Understand "left" as west. Understand "front" as north. Understand "right" as ea
 
 The table is in the Dark Cell. The initial appearance of the table is "A small table sits beside the bed."
 
-The candy bar is edible. The candy bar is on the table. 
+The candy bar is edible. The description of the candy bar is "It's still wrapped. It's peanut butter chocolate." The candy bar is on the table. 
 Instead of eating the candy bar:
 	say "You aren't particularly hungry, but you unwrap the candy bar and eat it. The chocolate is just the right amount of sweet. You gain some much needed, post-sleep energy.";
 	remove the candy bar from play;
@@ -33,7 +33,7 @@ After examining the toilet:
 	increase the score by 2.
 
 [The Rat in the Bathroom]
-The rat is an animal in the Bathroom. The initial appearance of the rat is "A large rat is dozing under the toilet bowl." The description is "The rat has its eyes puckered shut. It's fast asleep. Something rectangular is in its mouth. Maybe you can get it to drop it somehow?"
+The rat is an animal in the Bathroom. The initial appearance of the rat is "You freeze as you see a long pink tail peering out near the toilet. A large rat is dozing under the toilet bowl." The description is "The rat has its eyes puckered shut. It's fast asleep. Something rectangular is in its mouth. Maybe you can get it to drop it somehow?"
 
 The card is a thing. The description of the card is "A small, dirty, green card. It seems to be a business card, but the logo is smudged with something. Written in marker is the word REMEMBER' along with the number 11-5-19. The numbers don't mean anything to you. Who wrote on the card?"
 
@@ -84,7 +84,16 @@ After examining the desk:
 	 increase the score by 4.
 
 [Sylvester in the Equipment Area]
-Sylvester is an animal in the Equipment Area. It wears a collar. The initial appearance of Sylvester is "A bedraggled white cat sits snugly on top of a messy desk. A collar is around its neck. It stares at you with beady yellow eyes. [line break]'That's Sylvester.' You jump, startled, as you hear the artificial Voice echo in the room you're in. 'He's quite a friendly cat. He enjoys a nice touch on the head.'" The description of Sylvester is "The cat stares at you with wide, expressionless eyes. 'They say if you stare at a cat for more than five seconds, it'll attack you,' the Voice offers. You quickly turn your head away before anything can happen."
+Sylvester is an animal in the Equipment Area.
+The initial appearance of Sylvester is "A bedraggled white cat sits atop the desk."
+After going in the Equipment Area:
+   try the player looking;
+	  if the player is in the Equipment Area for the first time
+	  begin;
+		 say "The cat stares at you with beady yellow eyes. [line break]'That's Sylvester.' You jump, startled, as you hear the artificial Voice echo in the room you're in. 'He's quite a friendly cat. He enjoys a nice touch on the head.'";
+	   end if;
+	
+The description of Sylvester is "You spot a collar around the cat's neck. The cat gazes at you with wide, expressionless eyes. 'They say if you stare at a cat for more than five seconds, it'll attack you,' the Voice offers. You quickly turn your head away before anything can happen."
 Understand "cat" as Sylvester.
 After touching Sylvester:
 	 say "Sylvester purres and relaxes under your touch. His collar is right under your hand. Maybe you can take a closer look at it.".
@@ -107,9 +116,9 @@ Instead of flipping the clipboard:
 [The Red Room]
 The Red Room is a room. It is west of the Equipment Area and south of the Lab. The description is "Dozens of photos of men and women alike, from young to old, hang on a wire in the air. This is a photo-developing room, it seems. To the north you can see an entrance to a brightly lit room."
 
-After going in the Red Area:
+After going in the Red Room:
    try the player looking;
-	  if the player is in the Red Area for the first time
+	  if the player is in the Red Room for the first time
 	  begin;
 		 say "Sylvester scampers into the room and looks at you meaningfully. 'He seems to take a liking to you,' the Voice remarks. Sylvester turns and faces the entrance you just came from, grooming himself.";
 	   end if;
@@ -175,7 +184,7 @@ Understand "beat [something]" and "solve [something]" as solving. Solving is an 
 [The heavy door in the Lab--unlocking the heavy door]
 The heavy door is a door. It is locked. The heavy door is east of the Lab and west of the Experimental Room. The description is "It's locked shut and is quite heavy. 'Brilliant scientists, but dumb as an acorn. They say most fools don't keep a key more than 20 feet away from where the door is,' the Voice speaks, somewhat dryly."
 
-The cabinet is in the Lab. The initial appearance of the cabinet is "A black cabinet stands near the table."
+The cabinet is in the Lab. The initial appearance of the cabinet is "A black cabinet stands near the table. One of its drawers juts out slightly."
 
 [The Cockroach in the Lab]
 The cockroach is an animal in the Lab. The initial appearance of the cockroach is "A disgusting brown cockroach sits on top of the cabinet." The description of the cockroach is "Ew. You'd rather not touch the cabinet with that thing running around. 'Didn't think THAT would stop you,' the Voice remarks."
@@ -235,7 +244,7 @@ After examining the photograph:
 
 The initial appearance of the document is "A document is crumpled in the man's hand." The initial appearance of the photograph is "A photo is crushed in his hand as well."
 The description of the document is "It's an official document: [line break]
-[line break]SOMA MEMORY LABS
+[line break]'SOMA MEMORY LABS
 [line break]143-21 East Drive, SC, CA
 [line break] Date: June 10, 2013
 [line break]SUBJECT NAME: 14 (John Akins)
@@ -282,12 +291,12 @@ After examining the graffiti for the first time:
 
 The description of the folder is "It contains a bunch of important looking papers. One in particular stands out:
 [line break]
-[line break]Subject 11519 has been exhibiting the same kind of behavior ever since his treatment. He has been traversing the entire facility, each and every room. Whenever he reaches the Experimental room, he marks the map with a tally mark and his initials.
+[line break]'Subject 11519 has been exhibiting the same kind of behavior ever since his treatment. He has been traversing the entire facility, each and every room. Whenever he reaches the Experimental room, he marks the map with a tally mark and his initials.
 [line break]The subject had entered the facility as a young man who suffered from severe depression. He came after we advertised under the new motto that the military had told us to take on: 'New memory therapy for your mental health.' His consent form reveals that his motive for joining our project was to 'Be happier.' Memory loss can assist this, but we did not reveal to him the grave turnabout of our experiments, the fact that our research was meant to completely annihilate the capability to remember at all.
 
 [line break]But Subject 11519 persists in his travels. He has indeed exhibited memory deterioration, mostly in the form of amnesiac episodes, but he still walks through the facility, makes his marks, and returns to his cell. He does not want to forget. His supervising experimenter, Dr. John Parr, is interested in his antics and insists that we do not interfere. It's worth noting that he has been acting oddly recently; he does not seem enthusiastic and prefers to keep to himself. If the subject's behavior begins to pester our research, then we will act accordingly. But for the moment, we will let him be.
 
-[line break]Note: Humorously enough, he has a travel partner. The damn cat that always manages to escape before we can do anything to him. Perhaps they are both attempting to rebel against us?";
+[line break]Note: Humorously enough, he has a travel partner. The damn cat that always manages to escape before we can do anything to him. Perhaps they are both attempting to rebel against us?'";
 
 After examining the folder for the first time:
 	 say "'You've been doing well,' the Voice suddenly spoke. It sounds quieter than usual. 'There is a room up ahead at the end of the maze. Once you're done exploring this area, can you squeeze through the holes and get to the end of the maze?'";
@@ -336,7 +345,7 @@ The Research Room is a room. It is north of the Maze Room. The description of th
 
 The drawer compartment is in the Research Room. The initial appearance of the drawer compartment is "A drawer compartment sits on the floor."
 
-The diary is in the Research Room. The initial appearance of the diary is "A diary sits on top of a cracked table. 'Give it a read.' The Voice sounded pained."
+The diary is in the Research Room. The initial appearance of the diary is "A diary sits on top of a cracked table. 'Give it a read.' The Voice sounds stiff. 'While you're at it, just try to...well, you wanted answers. You might get some from that.'"
 Understand "read [something]" as reading. Reading is an action applying to one thing.
 
 The description of the diary is "
@@ -355,26 +364,29 @@ Entry # 2
 [line break]When I spoke to him during his interview, I wished I had just told him the truth. Just blurt out what we were really doing. But, coward that I am, I didn't. I sometimes wonder why I stay in this damn place, but it is then that I see the faces of Isabel and Joanne. Surely, since I know the truth behind our research, I know a valuable secret of the military. Surely, if I attempt to escape, they will...'deal' with me. And perhaps Isabel and Joanne as well, once they start questioning my disappearance.
 [line break]What irony...to believe that the very place I had considered my intellectual monastery is now the darkest of cells. All of us, test subjects and experimenters alike, are like the test rats in the cages of our facility. We are trapped.'
 [line break]
-[line break]The rest of the pages are torn. You stifle a sigh."
+[line break]The rest of the pages are torn. While you were reading the available pages, your head began to hurt. You feel a sudden intense urge to find more diary pages...but where--"
 
 Understand "drawer" as drawer compartment. Understand "drawer compartment" as drawer compartment.
 
 After examining the diary:
 	 say "'Don't let the apparent absence of memories convince you that they are completely gone. You must explore.' The Voice halters. 'Someone taught me that. It only took me a while to realize.'
+[line break]
 [line break]Sylvester sits musingly near the drawer compartment on the ground."
 
 The drawer compartment contains pencils, pens, a stapler, and torn papers.
 The description of the torn papers is "
 [line break]Entry #5
 [line break]Date: October 6, 2016
-[line break]Subject 11519...no, Sebastian...has been walking around the facility every day for the past two months. I followed him and saw what he was doing. He was marking his travels. At that moment, I gained clarity. He's attempting to retain his cognitive memory capabilities...unconsciously, perhaps, but nonetheless, that must be what he's doing! With each trek through the facility, he reinforces the spatial model of the building inside his brain. Each day he does it, he develops a sense of constancy, a habit. This simple act alone can help to ground at least some kind of memory.
-[line break]I became excited. I told Sebastian to mark his initials as well, instead of just making tally marks. I even let the cat follow him nearly all the times he walked, just as another supplement to his memory retention, a constant in his daily activity. My only fear is that the treatment will get to him soon enough and he will forget what he has been doing...I may intervene further. He is the first to exhibit such behavior. And it is subtle enough that no one else would suspect him, of both of us, doing anything."
+[line break]'Subject 11519...no, Sebastian...has been walking around the facility every day for the past two months. I followed him and saw what he was doing. He was marking his travels. At that moment, I gained clarity. He's attempting to retain his cognitive memory capabilities...unconsciously, perhaps, but nonetheless, that must be what he's doing! With each trek through the facility, he reinforces the spatial model of the building inside his brain. Each day he does it, he develops a sense of constancy, a habit. This simple act alone can help to ground at least some kind of memory.
+[line break]I became excited. I told Sebastian to mark his initials as well, instead of just making tally marks. I even let the cat follow him nearly all the times he walked, just as another supplement to his memory retention, a constant in his daily activity. My only fear is that the treatment will get to him soon enough and he will forget what he has been doing...I may intervene further. He is the first to exhibit such behavior. And it is subtle enough that no one else would suspect him, of both of us, doing anything.'
+[line break]
+[line break]Your head pounds painfully. Snippets of images race through your mind. They are not unfamiliar to you...slowly, steadily, realization dawns on you."
 
 The tape recorder is a thing.
 
 After examining the torn papers for the first time:
 	 move the tape recorder to the Research Room;
-	 say "You see a tape recorder under the papers."
+	 say "[line break]You see a tape recorder under the papers."
 
 Instead of listening to the tape recorder:
 	say "A voice speaks. It is masculine and sounds bone-weary. The voice sounds somewhat familiar.
@@ -390,7 +402,7 @@ Instead of listening to the tape recorder:
 [line break]My name is Doctor John Parr, supervising researcher at Soma Memory Labs. Date...I've lost track. Who cares. This will be my last experimental observation.'
 [line break]
 [line break]
-The recorder falls silent.
+The recorder falls silent. Things are coming into place. The throbbing in your head lessens. You feel calmer.
 [line break]
 '...Yes. That's it.' The Voice sounds faintly approving. 'Well done. Now, look to your right. Do you see that keypad? Why don't you type in the key. You're almost done.'";
 	  move the keypad to the Research Room.
@@ -401,14 +413,17 @@ Instead of examining the keypad:
 	 say "There are numbers on the keypad.";
 	 now the command prompt is "'Who are you?' the Voice asks. 'What is the key?' Type it in: ".
 
-[Player must write 'type' as action verb!]
+[Player must write 'type' as action verb! Player must examine keypad again to type key]
+Understand "type [text]" as typing. Typing is an action applying to one topic.
+
 After reading a command when the command prompt is "'Who are you?' the Voice asks. 'What is the key?' Type it in: ":
 	if the player's command matches "type 11519":
-		say "The keypad clicks and beeps. Suddenly, the wall slides back, revealing an entrance.";
+		say "[line break]You know the answer. The keypad clicks and beeps. Suddenly, the wall slides back, revealing an entrance.";
 		increase the score by 4;
 		move the player to the Exit;
+		now the command prompt is ">";
 	otherwise:
-		say "Incorrect. 'You know who you are,' the Voice says firmly. 'Tell me.'";
+		say "[line break]Incorrect. 'You know who you are,' the Voice says firmly. 'Tell me.'";
 		now the command prompt is ">";
 		reject the player's command.
 
@@ -417,10 +432,9 @@ After reading a command when the command prompt is "'Who are you?' the Voice ask
 [The Exit]
 The Exit is a room. The Exit is east of the Research Room. The description of the Exit is "A dark room. The right wall is covered with numerous televisions, each depicting a room you have explored.
 [line break]A door is up ahead. Above it is a sign with neon-red letters: EXIT."
-The doctor is a man in the Exit. The description of the doctor is "[line break]A middle-aged man. He is wearing a white gown that has been dirtied. His face is haggard and his eyes droop by the weight of their bags. One lens of his glasses is cracked."
+The doctor is a man in the Exit. The description of the doctor is "[line break]A middle-aged man. He is wearing a white gown that has been dirtied. His face is haggard and his eyes droop by the weight of their bags. One lens of his glasses is cracked. You recognize him."
 
-Understand "talk to [someone]" as talking to. Talking to is an action applying to one thing. 
-Instead of talking to the doctor:
+Instead of talking the doctor:
 	say "He nods once and speaks. [line break]'You've made it. This is the 93rd time you've walked the halls of this facility, but you never ended up here. Yes, you've been experiencing amnesiac episodes for a while, but those will pass soon enough. I've stopped treating you months ago. So you won't end up like...like Subject 14.'
 	[line break]His voice, although weary, sounds like the Voice. His breath reeks of alcohol.
 	[line break]'Many dreams were built here. Many...memories.' He grounds out the word. 'It won't be long before they find us. Find me. I've stayed here for too long. And I must go.'
@@ -435,7 +449,7 @@ Instead of forgiving the doctor:
 [line break]
 [line break]You step outside and feel the sand under your shoes. The wind blows gently. The sun's bright and you have to squint to adjust to the glare.
 [line break]Beside you, Sylvester meows and purrs against your leg.
-[line break]Slowly, you make your way down the field, Sylvester by your side, beginning a long, long walk.'".
+[line break]Slowly, you make your way down the field, Sylvester by your side, beginning a long, long walk.".
 
  
 
