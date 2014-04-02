@@ -4,7 +4,7 @@ Dates: February 15-18, 2014
        February 27-March 3, 2014
 
 
-LABS 3 and 4: The Battle for Ram Aras
+LABS 3 and 4: The Battle for Ram Aras, a basic game coded in Python/Pygame
 Time taken: Roughly 14 hours in total
 
 
